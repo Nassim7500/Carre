@@ -3,5 +3,6 @@
     return i * i;
 }
 
-Console.WriteLine(Carre(3));
-Console.WriteLine(Carre(10));
+Console.WriteLine("Saisissez le nombre pour le mettre au carré.");
+int res = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(Carre(res));
